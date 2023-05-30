@@ -1,0 +1,24 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "C/C++ Runner: Debug Session",
+      "type": "cppdbg",
+      "request": "launch",
+      "args": [],
+      "stopAtEntry": false,
+      "externalConsole": true,
+      "cwd": "c:/Users/Fifonsi Donald/OneDrive/Desktop/DESKTOP/Donald/Coding/My Projects/Web Dev/Todo/views",
+      "program": "c:/Users/Fifonsi Donald/OneDrive/Desktop/DESKTOP/Donald/Coding/My Projects/Web Dev/Todo/views/build/Debug/outDebug",
+      "MIMode": "gdb",
+      "miDebuggerPath": "gdb",
+      "setupCommands": [
+        {
+          "description": "Enable pretty-printing for gdb",
+          "text": "-enable-pretty-printing",
+          "ignoreFailures": true
+        }
+      ]
+    }
+  ]
+}
