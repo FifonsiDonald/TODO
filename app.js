@@ -3,6 +3,7 @@ const bodyParser = require("body-parser");
 const getDate = require("./date");
 const date =require(__dirname+"/date")
 const app = express();
+app.use(express.json());
 
 const port = process.env.PORT || 3000; // Default to port 3000 if PORT environment variable is not set
 const host = process.env.VERCEL_URL || 'localhost'; // Default to localhost if VERCEL_URL environment variable is not set
